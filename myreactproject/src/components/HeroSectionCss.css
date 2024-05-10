@@ -1,0 +1,151 @@
+#HeroHeadingAndImgContainer{
+    width: 100%;
+    height: 100vh;
+    background: #f6f9ff;
+    padding-top: 50px;
+    position: relative;
+    display: flex;
+}
+#HeroHeadingContainer{
+    width: 50%;
+    height: 100%;
+    padding-left: 135px;
+}
+#HeroHeadingContainer h1{
+    font-size: 60px;
+    font-weight: 500;
+}
+#HeroHeadingContainer button{
+    padding: 12px 30px;
+    font-size: 19px;
+    font-weight: 600;
+    background: #8c30f5;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+#HeroImgContainer{
+    width: 50%;
+    height: 100%;
+}
+#HeroImgContainer img{
+    width: 85%;
+    height: 100%;
+    border-radius: 60px;
+    box-shadow: 10px 10px 20px black ;
+    position: relative;
+    z-index: 100;
+}
+#LeftPuttiOne{
+    position: absolute;
+    bottom: 150px;
+    width: 40%;
+    height: 70px;
+    background: #74e3ea;
+    transform: skew(10deg, -11deg);
+    left: -5px;
+}
+
+#LeftPuttiTwo{
+    position: absolute;
+    bottom: 58px;
+    width: 25%;
+    height: 70px;
+    background: #f1e4fe;
+    transform: skew(10deg, -11deg);
+    left: -5px;
+}
+
+#RightPuttiThree{
+  
+    position: absolute;
+    bottom: 398px;
+    width: 25%;
+    height: 70px;
+    background: #f1e4fe;
+    transform: skew(10deg, -11deg);
+    right: 20px;
+}
+
+#RightPuttiFour{
+    position: absolute;
+    bottom: 291px;
+    width: 55%;
+    height: 70px;
+    background: #d6b1ff;
+    transform: skew(10deg, -11deg);
+  right: -5px;
+
+}
+
+#RightPuttiFive{
+    position: absolute;
+    bottom: 261px;
+    width: 25%;
+    height: 70px;
+    background: #74e3ea;
+    transform: skew(10deg, -11deg);
+    right: -22px;
+
+  }
+
+
+
+#CompanyLogoLikeGoogleETC{
+    margin-top: 50px;
+    border-top: 1px solid rgba(68, 68, 68, 0.39);
+    border-bottom:1px solid rgba(68, 68, 68, 0.39); 
+       width: 100%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+@media  screen and (max-width:1000px) {
+    #HeroHeadingAndImgContainer{
+        height: 100%;
+        display: block;
+    }
+    #HeroHeadingContainer {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    #HeroImgContainer {
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:650px) {
+
+     #HeroHeadingContainer {
+        padding-left: 5px;
+
+     }
+     #HeroImgContainer {
+        width: 75%;
+     }
+     #CompanyLogoLikeGoogleETC {
+        margin-top: 50px;
+        border-top: 1px solid rgba(68, 68, 68, 0.39);
+        border-bottom: 1px solid rgba(68, 68, 68, 0.39);
+        /* width: 100%; */
+        background: white;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        /* gap: 20px; */
+        flex-wrap: nowrap;
+    }
+}

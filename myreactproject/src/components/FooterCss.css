@@ -1,0 +1,104 @@
+    
+#FooterSection{
+width:100%;
+background:rgb(0, 0, 0);
+padding:40px 70px;
+
+}
+#FooterLeftRightDivCNT{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    /* gap: 80%; */
+}
+
+b{
+    font-size:20px;
+    font-weight:400;
+    margin:10px;
+    cursor: pointer;
+    color:white;
+    transition:1s;
+
+}
+b:hover{
+    color:rgb(82, 89, 189);
+    scale:0.9;
+    text-decoration:underline;
+}
+hr{
+    background: transparent;
+    height: 18px;
+    border: none;
+}
+
+.Copy{
+    font-size:20px;
+    font-weight:400;
+    margin:10px;
+    color:white;
+
+}
+#RIghtFooterSCT{
+    margin-right:100px;
+}
+
+#RIghtFooterSCT div h1{
+    color:white;
+}
+#LogoInNavbar img {
+    border-radius: 50%;
+  }
+#PlaystoreLogoInFooter {
+    display: flex;
+  flex-direction:column;
+   
+  }
+  
+  .IMAGES1InFooter {
+    margin-left:-12px;
+    width: 170px;
+    height: 80px;
+  }
+  
+  .IMAGESInFooter {
+    width: 170px;
+    height: 50px;
+    border-radius:10px;
+    border:2px solid rgb(255, 255, 255);
+  }
+
+
+  @media screen and (max-width:700px){
+#FooterLeftRightDivCNT{
+display:block;
+}
+  }
+  
+
+  @media screen and (max-width:640px){
+    #FooterSection{
+padding:40px 5px;
+    }
+      }
+
+
+      
+
+  @media screen and (max-width:500px){
+    #AboutUsDiv{
+    display:grid;
+    }
+      }
+
+
+
+
+
+
+
+
+
+
+      

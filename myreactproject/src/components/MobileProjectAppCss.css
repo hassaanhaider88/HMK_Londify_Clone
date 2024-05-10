@@ -1,0 +1,49 @@
+#ManageProjectSection{
+width:100%;
+padding:30px 70px;
+background:#2dc1c9;
+display:flex;
+align-items:center;
+justify-content:space-between;
+}
+
+#Playstorheading{
+    margin-top:100px; 
+    margin-left:-10px;
+}
+#PlaystoreLogoInProjectSCT {
+    display: flex;
+    align-items: center;
+    margin-left:-10px;
+
+   
+  }
+  
+  .IMAGES1 {
+    width: 170px;
+    height: 80px;
+  }
+  
+  .IMAGES {
+    width: 170px;
+    height: 50px;
+    border-radius:10px;
+  }
+  #ManageHeading h1{
+    font-size:40px;
+    font-weight:700;
+    margin-bottom:-10px
+  }
+
+
+  @media screen and (max-width:860px){
+    #ManageProjectSection {
+        display:block;
+        width: 100%;
+        padding: 30px 20px;
+    }
+  #ManageHeading p{
+    padding:10px;
+  }
+
+  }

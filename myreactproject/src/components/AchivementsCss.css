@@ -1,0 +1,103 @@
+#Mian{
+    padding: 20px 80px;
+}
+
+#AchivementsSectionContainer{
+    width: 100%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#AchivementsHeading h1{
+   font-size: 35px;
+   font-weight: 700;
+   margin-bottom: -9px;
+}
+#RightAchivementsIcons{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 50px;
+    padding-right: 50px;
+}
+.IconInAchivments{
+    font-size: 50px;
+}
+.Numbers{
+    font-size: 25px;
+    font-weight: 800;
+}
+.AchivementCards{
+display: flex;
+align-items: center;
+gap: 20px;
+} 
+
+#LeftAndRightImgContentCNT{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#LeftImgContentCNT{
+    overflow: hidden;
+    height: 450px;
+    flex-shrink: 0;
+    padding: 40px 90px;
+    background: #F1e4fe;
+ 
+}
+
+#LeftImgContentCNT img{
+    border-radius: 60px;
+    box-shadow: 10px 10px 20px black ;
+}
+#RightImgContentCNT{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+    /* padding: 0px 20px; */
+}
+#RightImgContentCNT h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: -9px;
+}
+
+#RightImgContentCNT button{
+    cursor: pointer;
+    padding: 12px 30px;
+    font-size: 18px;
+font-weight: 700;
+    background: none;
+    border: none;
+    text-align: left;
+    color: #b474f0;
+}
+
+
+
+@media screen and (max-width:870px) {
+    #AchivementsSectionContainer{
+        display: block;
+    }
+    .Breaktag{
+        display: none;
+    }   
+    #LeftAndRightImgContentCNT{
+        display: block;
+    }
+}
+@media screen and (max-width:640px) {
+    #RightAchivementsIcons {
+        padding-right: 0px;
+    }   
+}
+
+@media screen and (max-width:500px) {
+    #Mian{
+        padding: 20px 5px ;
+    }
+}

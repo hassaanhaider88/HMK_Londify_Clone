@@ -1,0 +1,94 @@
+#FeatureAndServiceContianer{
+    width: 100%;
+    background: #ffffff;
+    padding-top: 50px;
+}
+#FeatureContainer{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#FeatureContainer h1{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+
+#FeatureContainer p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#ServiceCardContainer{
+    width: 90%;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    padding: 10px 80px;
+    gap: 20px;
+}
+
+#ServiceCardContainer div{
+    padding: 5px 20px;
+}
+
+.ServiceContent span{
+     font-size: 40px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: blueviolet;
+     margin-bottom: -20px;
+
+}
+.ServiceContent h3{
+    text-align: center;
+        font-size: 28px;
+        font-weight: 600;
+        margin-bottom: -10px;
+    }
+
+.ServiceContent p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+
+@media screen and (max-width:1005px) {
+    #ServiceCardContainer{
+        gap: 5px;
+    }
+    
+}
+@media screen and (max-width:970px) {
+    #ServiceCardContainer{
+        grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    padding: 10px 20px;
+    }
+
+}
+@media  screen and (max-width:635px){
+    .Breaktag{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    #ServiceCardContainer{
+        grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(6,1fr);
+    padding: 10px 20px;
+    }
+    #FeatureContainer h1 {
+        font-size: 35px;
+    }
+}

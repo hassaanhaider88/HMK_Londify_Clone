@@ -1,0 +1,116 @@
+#ReviewSectionContainer{
+    width: 100%;
+    height: 150vh;
+    background: #d4fafb;
+    position: relative;
+}
+#SemiColonContainer{
+ 
+    position: absolute;
+    top: 10px;
+    left: 50px;
+
+    
+}
+
+#SemiColonContainer i{
+    font-size: 100px;
+    color: #71b9bd;
+   
+}
+#HeadingContainer{
+    position: absolute;
+    top: 25px;
+    left: 107px;
+}
+
+#HeadingContainer h1{
+    font-size: 50px;
+    color: #000000;
+    margin-bottom: -10px;
+}
+#HeadingContainer p{
+    font-size: 20px;
+    color: #000000;
+}
+
+
+#HubSpotReviewCNT{
+    position: absolute;
+    width: 260px;
+    background: #fff;
+    padding: 5px 50px;
+    top: 280px;
+    left: 140px;
+    overflow: hidden;
+}
+
+#HubSpotReviewCNT img{
+    width: 100%;
+    margin-left: -80px;
+}
+
+.ReviewIcon{
+    display: block;
+    font-size: 25px;
+   color: #71b9bd;
+   margin-top: -50px;
+}
+
+.ReviewPara p{
+    padding-left: 16px;
+    margin-top: -10px;
+    padding-right: 45px;
+}
+
+#ArbnbReviewCNT{
+    position: absolute;
+    width: 420px;
+    background: #fff;
+    padding: 5px 50px;
+    top: 140px;
+    right: 280px;
+    overflow: hidden;
+}
+#BookMyShowReviewCNT{
+    position: absolute;
+    width: 380px;
+    background: #fff;
+    padding: 5px 50px;
+    top: 500px;
+ 
+    right:    320px;
+    overflow: hidden;
+}
+
+
+
+
+@media screen and (max-width:1100px) {
+#ReviewSectionContainer{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#HeadingContainer{
+    position: static;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#HubSpotReviewCNT{
+    position: static;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#ArbnbReviewCNT{
+    position: static;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#BookMyShowReviewCNT{
+    position: static;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+}

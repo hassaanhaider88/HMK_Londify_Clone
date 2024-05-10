@@ -1,0 +1,95 @@
+#LogoAndNavbarItemsContainer {
+  width: 100%;
+  padding: 20px 10px;
+  /* height:150px; */
+  background: #f6fafd;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#NavbarItemsAngLogo {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  cursor: pointer;
+}
+
+#NavbarItemsAngLogo img {
+  border-radius: 50%;
+}
+
+#NavbarItems {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  cursor: pointer;
+  transition: 2s;
+}
+
+.NavbarItem {
+  font-weight: 600;
+}
+
+#PlaystoreLogo {
+  display: flex;
+  align-items: center;
+  transition: 2s;
+}
+
+.IMAGES1 {
+  width: 170px;
+  height: 80px;
+}
+
+.IMAGES {
+  width: 170px;
+  height: 50px;
+}
+
+.HumberGerIcon {
+  font-size: 30px;
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+
+@media screen and (max-width: 880px) {
+  #LogoAndNavbarItemsContainer {
+    display: block;
+  }
+
+  #PlaystoreLogo {
+    position: relative;
+    left: -100%;
+    top: 22px;
+  }
+
+  .PlaystoreLogopos {
+    position: relative;
+    left: 0% !important;
+    top: 22px;
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .HumberGerIcon {
+    display: block;
+    cursor: pointer;
+    transition: 1.5s;
+  }
+
+  #NavbarItems {
+    position: absolute;
+    top: -100%;
+  }
+
+  .NavbarItemsPosition {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    cursor: pointer;
+    top: 80px !important;
+  }
+}
